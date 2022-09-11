@@ -31,9 +31,15 @@ Subversion é uma ferramenta de controle de versão de software bastante utiliza
 
 ## Fontes:
 https://kenzie.com.br/blog/o-que-e-git/
+
 https://www.atlassian.com/br/git/tutorials/what-is-git
+
 https://gaea.com.br/entenda-por-que-versionamento-de-software-e-tao-importante/
+
 https://medium.com/trainingcenter/controle-de-vers%C3%A3o-git-github-e-bitbucket-afinal-o-que-%C3%A9-tudo-isso-9fa13fc13307
+
 https://www.hostgator.com.br/blog/git-o-sistema-de-controle/
+
 https://kenzie.com.br/blog/o-que-e-git/
+
 https://blog.convisoappsec.com/versionamento-de-software-importancia-para-seguranca-de-aplicacoes/
