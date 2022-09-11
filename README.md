@@ -1,8 +1,8 @@
 # git-e-gitflow-0.1
 
-Feito em colaboração!
-Integrantes:    Adriel victor de Oliveria Vilela    RA: 00211216
-            JOHRAN DE CARVALHO CALDAS FERRAZ    RA: 00210085
+Adriel victor de Oliveria Vilela    RA: 00211216
+
+Johran de Carvalho Caldas Ferraz   RA: 00210085
 
 ## 1. O que é o Git?
 De longe, o sistema de controle de versão moderno mais usado no mundo hoje é o Git. Criado pelo engenheiro de software Linus Torvalds, conhecido por ter desenvolvido, também, o núcleo Linux, o GIT é um Sistema de Controle de Versões Distribuído(DVCS). Um número impressionante de projetos de software depende do Git para controle de versão, incluindo projetos comerciais e de código-fonte aberto. Os desenvolvedores que trabalharam com o Git estão bem representados no pool de talentos de desenvolvimento de software disponíveis e funcionam bem em uma ampla variedade de sistemas operacionais e IDEs (Ambientes de Desenvolvimento Integrado). Estes sistemas de controle possuem a função de registrar quaisquer alterações feitas em cima de um código, armazenando essas informações e permitindo que, caso seja necessário, um(a) programador(a) possa regredir a versões anteriores de uma aplicação de modo simples e rápido.
