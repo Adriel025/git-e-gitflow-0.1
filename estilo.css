@@ -43,3 +43,13 @@
 #texto p{
     margin-left: 2%;
 }
+
+#fundo h5{
+    background-color: rgb(24, 24, 231);
+    max-width: 500px;
+    color: white;
+}
+
+#fundo {
+    margin-left: 1%;
+}
