@@ -45,11 +45,14 @@
 }
 
 #fundo h5{
-    background-color: rgb(24, 24, 231);
+    background-color: rgb(203, 203, 235);
     max-width: 500px;
-    color: white;
 }
 
 #fundo {
     margin-left: 1%;
+}
+
+#fundo h3{
+    margin-left: 10%;
 }

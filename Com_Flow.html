@@ -23,11 +23,60 @@
     <p>O Gitflow é um fluxo de trabalho legado do Git que no começo era uma estratégia inovadora e revolucionária para gerenciar ramificações do Git.</p>
     <p>O Gitflow é um modelo alternativo de ramificação do Git que consiste no uso de ramificações de recursos e várias ramificações primárias. Ele foi publicado pela primeira vez e popularizado por Vincent Driessen no nvie. Comparado ao desenvolvimento baseado em troncos, o Gitflow tem mais ramificações de vida longa e commits maiores.</p>
     <P>O Gitflow é apenas uma ideia abstrata do fluxo de trabalho Git, ou seja, ele dita que tipos de ramificações configurar e como fazer o merge. </P><br>
-    <center><img src="img/img.jpg.svg" width="50%" height="50%"></center><br><br>
-    <p>Com comando básico do Git:</p><br>
-    <center><h5>git checkout -b develop</h5></center><br>
-    <p>Com a CLI do Git-flow:</p><br>
-    <center><h5>git flow init</h5></center><br><br>
+    <center><img src="img/gitflow.jpg" width="50%" height="50%"></center><br><br>
+    <h3>Iniciando o Git Flow no projeto</h3><br>
+    <center><h5>Comando: git flow init</h5></center><br>
+    <center><img src="img/1.png" width="50%" height="50%"></center><br><br>
+    
+    <h3>Enviando para o Git as branches criadas</h3><br>
+    <center><h5>Comando: git push origin master && git push origin develop</h5></center><br>
+    <center><img src="img/2.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Iniciando uma nova Feature</h3><br>
+    <center><h5>Comando: git flow feature start [nome_da_feature]</h5></center><br>
+    <center><img src="img/3.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Criar um novo arquivo e enviá-lo para o repositório remoto</h3><br>
+    <center><h5>Comando: git push origin feature/[nome_da_feature]</h5></center><br>
+    <center><img src="img/4.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Finalizando a Feature criada</h3><br>
+    <center><h5>Comando: git flow feature finish [nome_da_feature]</h5></center><br>
+    <center><img src="img/5.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Criando um Release</h3><br>
+    <center><h5>Comando: git flow release start [versao_da_release]</h5></center><br>
+    <center><img src="img/6.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Publicando a Release</h3><br>
+    <center><h5>Comando: git flow release publish [versao_da_release]</h5></center><br>
+    <center><img src="img/7.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Em seguida, é necessário colocar uma mensagem para a publicação da Release.</h3><br>
+    <center><img src="img/8.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Depois da mensagem, a tela de configuração de Tag é exibida.</h3><br>
+    <center><img src="img/9.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Depois de tudo configurado, o Git Flow faz o merge para as branches Master e Develop, deleta a Release criada e faz o checkout para a Develop já atualizada.</h3><br>
+    <center><img src="img/10.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Publicando a Master e a Develop</h3><br>
+    <center><h5>Comando: git push origin develop && git push origin master</h5></center><br>
+    <center><img src="img/11.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Criando um Hotfix</h3><br>
+    <center><h5>Comando: git flow hotfix start [nome_da_hotfix]</h5></center><br>
+    <center><img src="img/12.png" width="50%" height="50%"></center><br><br>
+
+    <h3>Finalizando a Hotfix</h3><br>
+    <center><h5>Comando: git flow hotfix publish [nome_do_hotfix] && git push origin hotfix [nome_do_hotfix]</h5></center><br>
+    <center><img src="img/13.png" width="50%" height="50%"></center><br>
+    <center><img src="img/14.png" width="50%" height="50%"></center><br>
+    <center><img src="img/15.png" width="50%" height="50%"></center><br><br>
+    <h3>Depois que configurados a publicação, o merge e a tag, o Git Flow faz o merge do Hotfix com a Master e a Develop.</h3><br><br><br>
+
+    
     <h4>Agora que sabe como iniciar o Gitflow, vamos falar de seus beneficios!</h4><br>
     <h2>Desenvolvimento Paralelo</h2>
     <p>Uma das grandes vantagens do Git Flow é que ele torna o desenvolvimento paralelo muito simples, isolando o novo desenvolvimento do trabalho finalizado.</p><br>
@@ -40,8 +89,8 @@
     <P>Fonte:</P><br>
     <p>https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow</p><br>
     <P>https://www.alura.com.br/artigos/git-flow-o-que-e-como-quando-utilizar</P><br>
+    <P>https://codigomaromba.com/2019/01/02/git-gitflow-usar-ou-nao-usar/</P><br>
 </nav>
-
 
 </body>
 
