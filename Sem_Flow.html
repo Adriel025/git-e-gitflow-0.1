@@ -16,8 +16,41 @@
     </ul>
 </nav>
 
-<nav id="texto2">
+<nav id="fundo">
+    <br><Center><h2>fluxo de trabalho do branch de recurso do Git</h2></Center><br>
+    <p>O fluxo de trabalho da ramificação de recursos pressupõe um repositório central, e a ramificação principal representa o histórico oficial do projeto. O Git não faz distinção técnica entre a ramificação principal e as de recursos, então os desenvolvedores podem editar, preparar e fazer o commit de alterações em uma ramificação de recurso.</p>
+    <p>Além disso, as ramificações de recursos podem (e devem) ser enviadas para o repositório central. Assim é possível compartilhar um recurso com outros desenvolvedores sem tocar em nenhum código oficial.</p><br>    
+    <center><img src="img/img.jpg.svg" width="50%" height="50%"></center><br><br>
 
+    <h3>Comece com a ramificação principal</h3>
+    <h3>Todas as ramificações de recursos são criadas a partir do último estado de código de um projeto.</h3><br>
+    <center><h4>git checkout main</h4></center>
+    <center><h4>git fetch origin</h4></center>
+    <center><h4>git reset --hard origin/main</h4></center><br><br>
+
+    <h3>Criar um novo branch</h3>
+    <h3>Use um branch separado para cada recurso ou problema em que você trabalha.</h3><br>
+    <center><h4>git checkout -b new-feature</h4></center><br><br>
+    
+
+    <h3>Atualizar, adicionar, fazer o commit enviar por push as alterações</h3>
+    <h3>Nesse branch, edite, prepare e faça os commits das alterações da maneira usual, construindo o recurso com o número de commits necessários</h3><br>
+    <center><h4>git status</h4></center>
+    <center><h4>git add < some-file ></h4></center>
+    <center><h4>git commit</h4></center><br><br>
+
+
+    <h3>Enviar branch do recurso para remoto</h3>
+    <h3>É uma boa ideia enviar o branch do recurso para o repositório central.</h3><br>
+    <center><h4>git push -u origin new-feature</h4></center><br><br><br>
+    
+
+    <p>Depois de configurar a ramificação de rastreamento, o git push pode ser solicitado sem nenhum parâmetro para enviar direto a ramificação new-feature ao repositório central.</p>
+    <br><br><br>
+    
+
+    <P>Fonte:</P><br>
+    <P>https://www.atlassian.com/br/git/tutorials/comparing-workflows/feature-branch-workflow</P><br>
 </nav>
 
 

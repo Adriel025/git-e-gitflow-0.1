@@ -56,3 +56,8 @@
 #fundo h3{
     margin-left: 10%;
 }
+
+#fundo h4{
+    background-color: rgb(203, 203, 235);
+    max-width: 500px;
+}
